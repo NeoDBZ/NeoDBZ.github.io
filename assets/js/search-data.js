@@ -762,7 +762,7 @@ ninja.data = [{
           title: 'Introduction',
           description: "",
           section: "Powers",handler: () => {
-              window.location.href = "/races/introduction/";
+              window.location.href = "/powers/introduction/";
             },},{id: "powers-ki-awareness",
           title: 'Ki Awareness',
           description: "",
