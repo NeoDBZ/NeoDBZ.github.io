@@ -23,14 +23,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/paths/";
               },
-            },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "dropdown-introduction",
+            },{id: "dropdown-introduction",
               title: "Introduction",
               description: "",
               section: "Dropdown",
@@ -79,7 +72,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
+        },{id: "dropdown-introduction",
+              title: "Introduction",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/races/introduction/";
+              },
+            },{id: "dropdown-low-races",
+              title: "Low Races",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/races/low-races/";
+              },
+            },{id: "dropdown-medium-races",
+              title: "Medium Races",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/races/medium-races/";
+              },
+            },{id: "dropdown-high-races",
+              title: "High Races",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/races/high-races/";
+              },
+            },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
@@ -552,6 +573,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "races-high-races",
+          title: 'High Races',
+          description: "",
+          section: "Races",handler: () => {
+              window.location.href = "/races/high-races/";
+            },},{id: "races-introduction",
+          title: 'Introduction',
+          description: "",
+          section: "Races",handler: () => {
+              window.location.href = "/races/introduction/";
+            },},{id: "races-low-races",
+          title: 'Low Races',
+          description: "",
+          section: "Races",handler: () => {
+              window.location.href = "/uniques/low-races/";
+            },},{id: "races-medium-races",
+          title: 'Medium Races',
+          description: "",
+          section: "Races",handler: () => {
+              window.location.href = "/races/medium-races/";
+            },},{id: "races-restricted-races",
+          title: 'Restricted Races',
+          description: "",
+          section: "Races",handler: () => {
+              window.location.href = "/races/restricted-races/";
             },},{id: "uniques-developmental-uniques",
           title: 'Developmental Uniques',
           description: "",
