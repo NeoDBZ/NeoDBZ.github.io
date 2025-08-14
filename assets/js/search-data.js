@@ -545,16 +545,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "uniques-developmental-uniques",
+          title: 'Developmental Uniques',
+          description: "",
+          section: "Uniques",handler: () => {
+              window.location.href = "/uniques/dev-uniques/";
             },},{id: "uniques-mental-uniques",
           title: 'Mental Uniques',
           description: "",
           section: "Uniques",handler: () => {
               window.location.href = "/uniques/ment-uniques/";
+            },},{id: "uniques-personality-uniques",
+          title: 'Personality Uniques',
+          description: "",
+          section: "Uniques",handler: () => {
+              window.location.href = "/uniques/pers-uniques/";
             },},{id: "uniques-physical-uniques",
           title: 'Physical Uniques',
           description: "",
           section: "Uniques",handler: () => {
               window.location.href = "/uniques/phys-uniques/";
+            },},{id: "uniques-survival-uniques",
+          title: 'Survival Uniques',
+          description: "",
+          section: "Uniques",handler: () => {
+              window.location.href = "/uniques/surv-uniques/";
             },},{
         id: 'social-email',
         title: 'email',
