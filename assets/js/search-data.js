@@ -107,7 +107,49 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
+        },{id: "dropdown-introduction",
+              title: "Introduction",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/introduction/";
+              },
+            },{id: "dropdown-ki-invents",
+              title: "Ki Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/ki/";
+              },
+            },{id: "dropdown-hth-invents",
+              title: "HtH Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/HandtoHand/";
+              },
+            },{id: "dropdown-shield-invents",
+              title: "Shield Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/shields/";
+              },
+            },{id: "dropdown-stat-booster-invents",
+              title: "Stat Booster Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/statboosters/";
+              },
+            },{id: "dropdown-weapon-invents",
+              title: "Weapon Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/weapons/";
+              },
+            },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
@@ -517,6 +559,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "invents-hand-to-hand-inventions",
+          title: 'Hand to Hand Inventions',
+          description: "",
+          section: "Invents",handler: () => {
+              window.location.href = "/invents/HandtoHand/";
+            },},{id: "invents-weapon-inventions",
+          title: 'Weapon Inventions',
+          description: "",
+          section: "Invents",handler: () => {
+              window.location.href = "/invents/weapons/";
+            },},{id: "invents-introduction",
+          title: 'Introduction',
+          description: "",
+          section: "Invents",handler: () => {
+              window.location.href = "/invents/introduction/";
+            },},{id: "invents-ki-inventions",
+          title: 'Ki Inventions',
+          description: "",
+          section: "Invents",handler: () => {
+              window.location.href = "/invents/ki/";
+            },},{id: "invents-physical-uniques",
+          title: 'Physical Uniques',
+          description: "",
+          section: "Invents",handler: () => {
+              window.location.href = "/uniques/phys-uniques/";
+            },},{id: "invents-shield-inventions",
+          title: 'Shield Inventions',
+          description: "",
+          section: "Invents",handler: () => {
+              window.location.href = "/invents/shields/";
+            },},{id: "invents-statbooster-inventions",
+          title: 'Statbooster Inventions',
+          description: "",
+          section: "Invents",handler: () => {
+              window.location.href = "/invents/statboosters/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
