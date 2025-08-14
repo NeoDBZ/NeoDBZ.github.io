@@ -608,7 +608,7 @@ ninja.data = [{
           title: 'Low Races',
           description: "",
           section: "Races",handler: () => {
-              window.location.href = "/uniques/low-races/";
+              window.location.href = "/races/low-races/";
             },},{id: "races-medium-races",
           title: 'Medium Races',
           description: "",
