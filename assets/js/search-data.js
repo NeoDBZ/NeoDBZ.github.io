@@ -135,6 +135,104 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/invents/weapons/";
               },
+            },{id: "dropdown-introduction",
+              title: "Introduction",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/introduction/";
+              },
+            },{id: "dropdown-basic-powers",
+              title: "Basic Powers",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/basics/";
+              },
+            },{id: "dropdown-offensive-ki",
+              title: "Offensive Ki",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/ki-off/";
+              },
+            },{id: "dropdown-defensive-ki",
+              title: "Defensive Ki",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/ki-def/";
+              },
+            },{id: "dropdown-defensive",
+              title: "Defensive",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/defensive/";
+              },
+            },{id: "dropdown-hand-to-hand",
+              title: "Hand to Hand",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/HandtoHand/";
+              },
+            },{id: "dropdown-flight",
+              title: "Flight",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/Flight/";
+              },
+            },{id: "dropdown-ki-body-enhancement",
+              title: "Ki Body Enhancement",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/ki-body/";
+              },
+            },{id: "dropdown-powering-up",
+              title: "Powering Up",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/Poweringup/";
+              },
+            },{id: "dropdown-superspeed",
+              title: "Superspeed",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/Superspeed/";
+              },
+            },{id: "dropdown-sword",
+              title: "Sword",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/Sword/";
+              },
+            },{id: "dropdown-ki-awareness",
+              title: "Ki Awareness",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/ki-aware/";
+              },
+            },{id: "dropdown-telekinesis",
+              title: "Telekinesis",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/telekinesis/";
+              },
+            },{id: "dropdown-hybrid",
+              title: "Hybrid",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/powers/hybrid/";
+              },
             },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -544,7 +642,77 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "powers-flight",
+          title: 'Flight',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/Flight/";
+            },},{id: "powers-hand-to-hand",
+          title: 'Hand to Hand',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/HandtoHand/";
+            },},{id: "powers-hybrid-powers",
+          title: 'Hybrid Powers',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/hybrid/";
+            },},{id: "powers-powering-up",
+          title: 'Powering Up',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/Poweringup/";
+            },},{id: "powers-superspeed",
+          title: 'Superspeed',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/Superspeed/";
+            },},{id: "powers-sword",
+          title: 'Sword',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/Sword/";
+            },},{id: "powers-telekinesis",
+          title: 'Telekinesis',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/Telekinesis/";
+            },},{id: "powers-basic-powers",
+          title: 'Basic Powers',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/basics/";
+            },},{id: "powers-defensive",
+          title: 'Defensive',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/defensive/";
+            },},{id: "powers-introduction",
+          title: 'Introduction',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/races/introduction/";
+            },},{id: "powers-ki-awareness",
+          title: 'Ki Awareness',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/ki-awareness/";
+            },},{id: "powers-ki-body-enhancement",
+          title: 'Ki Body Enhancement',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/ki-body/";
+            },},{id: "powers-defensive-ki",
+          title: 'Defensive Ki',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/ki-def/";
+            },},{id: "powers-offensive-ki",
+          title: 'Offensive Ki',
+          description: "",
+          section: "Powers",handler: () => {
+              window.location.href = "/powers/ki-off/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
