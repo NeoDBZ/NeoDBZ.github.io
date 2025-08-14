@@ -135,7 +135,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/invents/weapons/";
               },
-            },{id: "dropdown-introduction",
+            },{id: "nav-fighting-styles",
+          title: "Fighting Styles",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/fightingstyles/";
+          },
+        },{id: "dropdown-introduction",
               title: "Introduction",
               description: "",
               section: "Dropdown",
