@@ -240,15 +240,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/powers/hybrid/";
               },
-            },{id: "dropdown-introduction",
-              title: "Introduction",
+            },{id: "dropdown-public",
+              title: "Public",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/schools/public/";
               },
-            },{id: "dropdown-physical",
-              title: "Physical",
+            },{id: "dropdown-personal",
+              title: "Personal",
               description: "",
               section: "Dropdown",
               handler: () => {
@@ -747,7 +747,7 @@ ninja.data = [{
           title: 'Telekinesis',
           description: "",
           section: "Powers",handler: () => {
-              window.location.href = "/powers/Telekinesis/";
+              window.location.href = "/powers/telekinesis/";
             },},{id: "powers-basic-powers",
           title: 'Basic Powers',
           description: "",
