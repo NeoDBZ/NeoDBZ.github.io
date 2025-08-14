@@ -30,7 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "dropdown-physical",
+        },{id: "dropdown-introduction",
+              title: "Introduction",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/uniques/introduction/";
+              },
+            },{id: "dropdown-physical",
               title: "Physical",
               description: "",
               section: "Dropdown",
@@ -550,6 +557,11 @@ ninja.data = [{
           description: "",
           section: "Uniques",handler: () => {
               window.location.href = "/uniques/dev-uniques/";
+            },},{id: "uniques-introduction",
+          title: 'Introduction',
+          description: "",
+          section: "Uniques",handler: () => {
+              window.location.href = "/uniques/introduction/";
             },},{id: "uniques-mental-uniques",
           title: 'Mental Uniques',
           description: "",
