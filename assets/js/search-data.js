@@ -666,7 +666,7 @@ ninja.data = [{
           title: 'Combat Basics',
           description: "",
           section: "Combat",handler: () => {
-              window.location.href = "/races/high-races/";
+              window.location.href = "/combat/basics/";
             },},{id: "combat-critical-hits",
           title: 'Critical Hits',
           description: "",
