@@ -545,6 +545,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "uniques-mental-uniques",
+          title: 'Mental Uniques',
+          description: "",
+          section: "Uniques",handler: () => {
+              window.location.href = "/uniques/ment-uniques/";
             },},{id: "uniques-physical-uniques",
           title: 'Physical Uniques',
           description: "",
