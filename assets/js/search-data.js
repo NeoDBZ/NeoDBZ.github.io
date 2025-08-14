@@ -240,7 +240,56 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/powers/hybrid/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "dropdown-introduction",
+              title: "Introduction",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/schools/public/";
+              },
+            },{id: "dropdown-physical",
+              title: "Physical",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/schools/personal/";
+              },
+            },{id: "dropdown-basic-combat",
+              title: "Basic Combat",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/combat/basics/";
+              },
+            },{id: "dropdown-advanced-combat",
+              title: "Advanced Combat",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/combat/advanced/";
+              },
+            },{id: "dropdown-critical-hits",
+              title: "Critical Hits",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/combat/criticals/";
+              },
+            },{id: "nav-equipment",
+          title: "Equipment",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/equipment/";
+          },
+        },{id: "nav-advancement",
+          title: "Advancement",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Advancement/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -608,6 +657,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "combat-advanced-combat",
+          title: 'Advanced Combat',
+          description: "",
+          section: "Combat",handler: () => {
+              window.location.href = "/combat/advanced/";
+            },},{id: "combat-combat-basics",
+          title: 'Combat Basics',
+          description: "",
+          section: "Combat",handler: () => {
+              window.location.href = "/races/high-races/";
+            },},{id: "combat-critical-hits",
+          title: 'Critical Hits',
+          description: "",
+          section: "Combat",handler: () => {
+              window.location.href = "/combat/criticals/";
             },},{id: "invents-hand-to-hand-inventions",
           title: 'Hand to Hand Inventions',
           description: "",
@@ -789,6 +853,16 @@ ninja.data = [{
           description: "",
           section: "Races",handler: () => {
               window.location.href = "/races/restricted-races/";
+            },},{id: "schools-personal-schools",
+          title: 'Personal Schools',
+          description: "",
+          section: "Schools",handler: () => {
+              window.location.href = "/schools/personal/";
+            },},{id: "schools-public-schools",
+          title: 'Public Schools',
+          description: "",
+          section: "Schools",handler: () => {
+              window.location.href = "/schools/public/";
             },},{id: "uniques-developmental-uniques",
           title: 'Developmental Uniques',
           description: "",
