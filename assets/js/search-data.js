@@ -224,7 +224,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/powers/ki-aware/";
+                window.location.href = "/powers/ki-awareness/";
               },
             },{id: "dropdown-telekinesis",
               title: "Telekinesis",
@@ -747,7 +747,7 @@ ninja.data = [{
           title: 'Telekinesis',
           description: "",
           section: "Powers",handler: () => {
-              window.location.href = "/powers/Telekinesis/";
+              window.location.href = "/powers/telekinesis/";
             },},{id: "powers-basic-powers",
           title: 'Basic Powers',
           description: "",
