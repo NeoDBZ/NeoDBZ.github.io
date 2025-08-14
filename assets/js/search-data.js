@@ -523,11 +523,6 @@ ninja.data = [{
           description: "",
           section: "Invents",handler: () => {
               window.location.href = "/invents/ki/";
-            },},{id: "invents-physical-uniques",
-          title: 'Physical Uniques',
-          description: "",
-          section: "Invents",handler: () => {
-              window.location.href = "/uniques/phys-uniques/";
             },},{id: "invents-shield-inventions",
           title: 'Shield Inventions',
           description: "",
