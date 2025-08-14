@@ -747,7 +747,7 @@ ninja.data = [{
           title: 'Telekinesis',
           description: "",
           section: "Powers",handler: () => {
-              window.location.href = "/powers/telekinesis/";
+              window.location.href = "/powers/Telekinesis/";
             },},{id: "powers-basic-powers",
           title: 'Basic Powers',
           description: "",
