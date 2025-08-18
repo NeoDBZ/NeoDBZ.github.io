@@ -93,50 +93,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/races/high-races/";
               },
-            },{id: "dropdown-introduction",
-              title: "Introduction",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/invents/introduction/";
-              },
-            },{id: "dropdown-ki-invents",
-              title: "Ki Invents",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/invents/ki/";
-              },
-            },{id: "dropdown-hth-invents",
-              title: "HtH Invents",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/invents/HandtoHand/";
-              },
-            },{id: "dropdown-shield-invents",
-              title: "Shield Invents",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/invents/shields/";
-              },
-            },{id: "dropdown-stat-booster-invents",
-              title: "Stat Booster Invents",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/invents/statboosters/";
-              },
-            },{id: "dropdown-weapon-invents",
-              title: "Weapon Invents",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/invents/weapons/";
-              },
-            },{id: "nav-fighting-styles",
-          title: "Fighting Styles",
+            },{id: "nav-styles",
+          title: "Styles",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -282,7 +240,49 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/equipment/";
           },
-        },{id: "nav-advancement",
+        },{id: "dropdown-introduction",
+              title: "Introduction",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/introduction/";
+              },
+            },{id: "dropdown-ki-invents",
+              title: "Ki Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/ki/";
+              },
+            },{id: "dropdown-hth-invents",
+              title: "HtH Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/HandtoHand/";
+              },
+            },{id: "dropdown-shield-invents",
+              title: "Shield Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/shields/";
+              },
+            },{id: "dropdown-stat-booster-invents",
+              title: "Stat Booster Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/statboosters/";
+              },
+            },{id: "dropdown-weapon-invents",
+              title: "Weapon Invents",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/invents/weapons/";
+              },
+            },{id: "nav-advancement",
           title: "Advancement",
           description: "",
           section: "Navigation",
